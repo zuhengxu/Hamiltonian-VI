@@ -3,7 +3,6 @@ using LogExpFunctions: logistic
 import LogExpFunctions: logistic, logit
 using Zygote: @ignore, Buffer
 using Base.Threads
-# include("train.jl")
 
 ############
 #### array operation without mutation issue
